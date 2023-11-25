@@ -38,8 +38,6 @@
             label4 = new Label();
             label5 = new Label();
             button3 = new Button();
-            label6 = new Label();
-            comboBox1 = new ComboBox();
             ((System.ComponentModel.ISupportInitialize)dataGridView1).BeginInit();
             SuspendLayout();
             // 
@@ -142,32 +140,11 @@
             button3.UseVisualStyleBackColor = true;
             button3.Click += button3_Click;
             // 
-            // label6
-            // 
-            label6.AutoSize = true;
-            label6.Location = new Point(1211, 535);
-            label6.Name = "label6";
-            label6.Size = new Size(125, 32);
-            label6.TabIndex = 10;
-            label6.Text = "Алгоритм:";
-            label6.Click += label6_Click;
-            // 
-            // comboBox1
-            // 
-            comboBox1.FormattingEnabled = true;
-            comboBox1.Location = new Point(1357, 537);
-            comboBox1.Name = "comboBox1";
-            comboBox1.Size = new Size(242, 40);
-            comboBox1.TabIndex = 11;
-            comboBox1.SelectedIndexChanged += comboBox1_SelectedIndexChanged;
-            // 
             // Form1
             // 
             AutoScaleDimensions = new SizeF(13F, 32F);
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(1648, 650);
-            Controls.Add(comboBox1);
-            Controls.Add(label6);
             Controls.Add(button3);
             Controls.Add(label5);
             Controls.Add(label4);
@@ -197,7 +174,5 @@
         private Label label4;
         private Label label5;
         private Button button3;
-        private Label label6;
-        private ComboBox comboBox1;
     }
 }
