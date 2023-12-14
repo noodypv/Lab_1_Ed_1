@@ -48,7 +48,6 @@
             textBox1.Name = "textBox1";
             textBox1.Size = new Size(217, 68);
             textBox1.TabIndex = 0;
-            textBox1.TextChanged += textBox1_TextChanged;
             textBox1.KeyPress += textBox1_KeyPress;
             // 
             // label1
@@ -59,7 +58,6 @@
             label1.Size = new Size(253, 32);
             label1.TabIndex = 1;
             label1.Text = "Процессорное время";
-            label1.Click += label1_Click;
             // 
             // button1
             // 
@@ -109,7 +107,6 @@
             label3.Name = "label3";
             label3.Size = new Size(0, 32);
             label3.TabIndex = 6;
-            label3.Click += label3_Click;
             // 
             // label4
             // 
@@ -127,7 +124,6 @@
             label5.Name = "label5";
             label5.Size = new Size(0, 32);
             label5.TabIndex = 8;
-            label5.Click += label5_Click;
             // 
             // button3
             // 
@@ -147,7 +143,6 @@
             label6.Size = new Size(125, 32);
             label6.TabIndex = 10;
             label6.Text = "Алгоритм:";
-            label6.Click += label6_Click;
             // 
             // comboBox1
             // 
@@ -156,7 +151,6 @@
             comboBox1.Name = "comboBox1";
             comboBox1.Size = new Size(242, 40);
             comboBox1.TabIndex = 11;
-            comboBox1.SelectedIndexChanged += comboBox1_SelectedIndexChanged;
             // 
             // Form1
             // 
